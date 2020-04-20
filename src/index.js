@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App.js"
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-class Welcome extends React.Component {
-  render() {
-    return <h1>Hello World from React boilerplate</h1>;
-  }
-}
-
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+ReactDOM.render(<Router><Route component={App}></Route></Router>, document.getElementById('root'));
