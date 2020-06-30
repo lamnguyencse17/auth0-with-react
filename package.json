@@ -29,7 +29,7 @@
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-react-hooks": "^2.5.1",
     "express": "^4.17.1",
-    "express-jwt": "^5.3.3",
+    "express-jwt": "^6.0.0",
     "express-jwt-authz": "^2.3.1",
     "jwks-rsa": "^1.8.0",
     "nodemon": "^2.0.3",
